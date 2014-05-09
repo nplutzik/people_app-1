@@ -1,7 +1,6 @@
 require 'spec_helper'
 require 'rspec/rails'
 require 'shoulda/matchers'
-require 'pry'
 
 class Person < ActiveRecord::Base
 	validates_presence_of :first_name, :last_name, :license, :drink, :image_url
